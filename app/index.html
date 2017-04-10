@@ -1,21 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bootstrap 101 Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/jasny-bootstrap.min.css" rel="stylesheet" media="screen">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Shlock</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Bootstrap -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+    <!--[if lt IE 9]-->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<h1>Hello, world!</h1>
+
+<div class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm">
+    <a class="navmenu-brand  visible-md visible-lg" href="#">
+        <img src="images/logo_header.png" alt="logo">
+    </a>
+    <ul class="nav navmenu-nav">
+        <li class="active"><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">OUR SERVICES</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">TEAM</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">TESTIMONIALS</a></li>
+        <li><a href="#">CONTACT</a></li>
+    </ul>
+    <div class="nav-email">
+        <p>info@shlok.com</p>
+        <p>inquiry@shlok.com</p>
+    </div>
+    <div class="nav-social">
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </div>
+</div>
+
+<div class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+    <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">
+        <img src="images/logo_header.png" alt="logo">
+    </a>
+</div>
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h1>Navmenu Template</h1>
+                </div>
+                <p class="lead">This example shows the navmenu element. If the viewport is <b>less than 992px</b> the
+                    menu will be
+                    placed the off canvas and will be shown with a slide in effect.</p>
+                <p>Also take a look at the examples for a navmenu with <a href="../navmenu-push">push effect</a> and <a
+                        href="../navmenu-reveal">reveal effect</a>.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery.js"></script>

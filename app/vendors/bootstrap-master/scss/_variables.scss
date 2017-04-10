@@ -16,18 +16,23 @@ $alert-fixed-width:        $screen-md-min;
 //== Navmenu
 
 // Basics of a navmenu
-$navmenu-width:                     300px;
+//$navmenu-width:                     300px;
+$navmenu-width:                     370px;
 $navmenu-margin-vertical:           (0.5 * $line-height-computed);
 $navmenu-default-color:             #777;
-$navmenu-default-bg:                #f8f8f8;
+$navmenu-default-bg:                $yellow-base;
 $navmenu-default-border:            darken($navmenu-default-bg, 6.5%);
 
 // Navmenu links
-$navmenu-default-link-color:                #777;
-$navmenu-default-link-hover-color:          #333;
+//$navmenu-default-link-color:                #777;
+$navmenu-default-link-color:                $black-base;
+//$navmenu-default-link-hover-color:          #333;
+$navmenu-default-link-hover-color:          $white-base;
 $navmenu-default-link-hover-bg:             transparent;
-$navmenu-default-link-active-color:         #555;
-$navmenu-default-link-active-bg:            darken($navmenu-default-bg, 6.5%);
+//$navmenu-default-link-active-color:         #555;
+$navmenu-default-link-active-color:         $white-base;
+//$navmenu-default-link-active-bg:            darken($navmenu-default-bg, 6.5%);
+$navmenu-default-link-active-bg:            $yellow-base;
 $navmenu-default-link-disabled-color:       #ccc;
 $navmenu-default-link-disabled-bg:          transparent;
 
