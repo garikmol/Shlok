@@ -3,10 +3,11 @@
   color: $black-base
   font-size: 14px
   font-weight: 400
-  line-height: 39px
+  line-height: 19px
   text-align: left
   padding-left: 49px
   padding-right: 61px
+  letter-spacing: 0.1em
   overflow: visible
 
 .navmenu-brand
@@ -14,7 +15,7 @@
   padding-left: 0
 
 .navmenu-nav
-  margin-top: 128px
+  margin-top: 124px
   li
     >a
       padding-left: 0
@@ -29,12 +30,15 @@
       left: 0
 
 .nav-email
-  line-height: 20px
+  line-height: 10px
+  margin-top: 61px
+  letter-spacing: initial
 
 .nav-social
+  margin-top: 30px
   >a
     color: $black-base
-    margin-right: 14px
+    margin-right: 8px
     &:hover,&:focus
       color: $white-base
 
@@ -45,8 +49,11 @@
   z-index: 1070
 
 @media (min-width: 992px)
-  .row
-    margin-left: 370px
+  .navbar-hid
+    display: none !important
+
+
+
 
 
 

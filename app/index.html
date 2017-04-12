@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Shlock</title>
-    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+
 
     <!-- Bootstrap -->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -16,11 +16,12 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <!--[endif]-->
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 <body>
 
 <div class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm">
-    <a class="navmenu-brand  visible-md visible-lg" href="#">
+    <a class="navmenu-brand offcanvas-sm" href="#">
         <img src="images/logo_header.png" alt="logo">
     </a>
     <ul class="nav navmenu-nav">
@@ -45,7 +46,7 @@
     </div>
 </div>
 
-<div class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+<div class="navbar navbar-default navbar-fixed-top navbar-hid">
     <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -56,21 +57,45 @@
     </a>
 </div>
 
-<div class="container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="page-header">
-                    <h1>Navmenu Template</h1>
-                </div>
-                <p class="lead">This example shows the navmenu element. If the viewport is <b>less than 992px</b> the
-                    menu will be
-                    placed the off canvas and will be shown with a slide in effect.</p>
-                <p>Also take a look at the examples for a navmenu with <a href="../navmenu-push">push effect</a> and <a
-                        href="../navmenu-reveal">reveal effect</a>.</p>
-
+<div class="container-fluid section1-1">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div class="container jumbotron_sec1-1">
+            <div class="jumbotron jumbotron-main">
+                <h1>OUT STANDING DESIGN</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                    suffered alteration in some form, by injected humour, or randomised
+                    words which don't look even slightly believable.</p>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">LOOK MORE</a></p>
             </div>
+
         </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item itemOne active">
+                <!-- <img src="..." alt="..."> -->
+            </div>
+            <div class="item itemTwo">
+                <!-- <img src="..." alt="..."> -->
+            </div>
+            <div class="item itemThree">
+                <!-- <img src="..." alt="..."> -->
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="control-mark1-1">
+                 <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                <span class="control-notation1-1">PREV</span>
+            </span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="control-mark1-1">
+                <span class="control-notation1-1">NEXT</span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </span>
+        </a>
     </div>
 </div>
 
