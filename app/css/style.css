@@ -9060,3 +9060,43 @@ body {
     color: #ffffff; }
   .wrap-services3-1:hover > h1 {
     color: #f7b733; }
+
+.section4-1 {
+  min-height: 898px;
+  padding-top: 130px;
+  background-image: url("../images/section4-1/background4-1.jpg"); }
+
+.swiper-container4-1 {
+  max-height: 530px;
+  margin: 100px auto;
+  position: relative; }
+
+.swiper-pagination {
+  top: 583px !important;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 250px;
+  height: 5px; }
+
+.slider-wrap {
+  position: relative;
+  overflow: hidden; }
+  .slider-wrap:before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-right: -87%;
+    bottom: 100%;
+    width: 150%;
+    height: 150%;
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    background-color: rgba(247, 183, 51, 0.9);
+    transition: all 1s; }
+  .slider-wrap:hover:before {
+    bottom: 0; }
