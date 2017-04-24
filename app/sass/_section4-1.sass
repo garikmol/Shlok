@@ -1,6 +1,7 @@
 .section4-1
   min-height: 898px
   padding-top: 130px
+  color: $white-base
   background-image: url("../images/section4-1/background4-1.jpg")
 
 .swiper-container4-1
@@ -8,7 +9,7 @@
   margin: 100px auto
   position: relative
 
-.swiper-pagination
+.swiper-pagination4-1
   top: 583px !important
   left: 0
   right: 0
@@ -19,24 +20,56 @@
 .slider-wrap
   position: relative
   overflow: hidden
+  border: 1px solid transparent
+  transition: border 2s
   &:before
     content: ''
     display: block
     position: absolute
     right: 0
-    margin-right: -87%
+    margin-right: -100%
     bottom: 100%
-    width: 150%
-    height: 150%
+    width: 100%
+    height: 120%
+    transform-origin: 0 100%
     -moz-transform: rotate(-30deg)
     -webkit-transform: rotate(-30deg)
     -o-transform: rotate(-30deg)
     -ms-transform: rotate(-30deg)
     transform: rotate(-30deg)
-    background-color:  rgba(247, 183, 51, 0.9)
-    transition: all 1s
+    background-color: rgba(247, 183, 51, 0.9)
+    transition: all 0.5s
   &:hover:before
     bottom: 0
+  &:hover
+    border: 1px solid $yellow-base
+    transition: all 2s
+    .project-describe4-1
+      bottom: 450px
+      transition: all 0.5s
+      transition-delay: 0.5s
+    .project-icon4-1
+      top: 450px
+      transition: all 0.5s
+      transition-delay: 0.5s
+
+.project-describe4-1
+  text-align: right
+  max-width: 221px
+  position: absolute
+  bottom: 100%
+  right: 64px
+  transition: all 0.5s
+
+.project-icon4-1
+  position: absolute
+  width: 97px
+  text-align: center
+  top: 100%
+  left: 30px
+  transition: all 0.5s
+
+
 
 
 

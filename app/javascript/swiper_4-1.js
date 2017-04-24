@@ -9,7 +9,8 @@ var swiper4_1 = new Swiper ('.swiper-container4-1', {
     spaceBetween: 0,
     slidesPerView: 4,
     // If we need pagination
-    pagination: '.swiper-pagination',
+    pagination: '.swiper-pagination4-1',
     paginationType: 'progress'
 });
+
 
