@@ -9143,3 +9143,55 @@ body {
   background-image: url("../images/section5-1/background.jpg");
   min-height: 200px;
   padding-top: 80px; }
+
+.section6-1 {
+  min-height: 773px;
+  background-image: url("../images/section6-1/background.jpg");
+  color: #ffffff;
+  padding-top: 130px; }
+
+.swiper-container6-1 {
+  position: relative;
+  height: 408px; }
+
+.person6-1 {
+  width: 322px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  border-bottom-right-radius: 161px;
+  border-bottom-left-radius: 161px; }
+  .person6-1 > img {
+    object-position: 85px 0; }
+  .person6-1:hover .person-back6-1 {
+    background-color: #f7b733; }
+  .person6-1:hover .social6-1 {
+    color: #1b1b1b; }
+
+.person-back6-1 {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 322px;
+  height: 322px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #626262;
+  box-sizing: border-box;
+  background-color: #1b1b1b; }
+
+.social6-1 {
+  position: absolute;
+  height: 200px;
+  width: 27px;
+  left: 40px;
+  top: 119px;
+  color: #ffffff; }
+  .social6-1 > a {
+    display: block;
+    color: inherit;
+    float: left;
+    clear: left;
+    margin-top: 15px; }
