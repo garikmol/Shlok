@@ -109,8 +109,10 @@ $line-height-small:         1.5 !default;
 
 //$border-radius-base:        4px !default;
 $border-radius-base:        0;
-$border-radius-large:       6px !default;
-$border-radius-small:       3px !default;
+//$border-radius-large:       6px !default;
+$border-radius-large:       0;
+//$border-radius-small:       3px !default;
+$border-radius-small:       0;
 
 //** Global color for active items (e.g., navs or dropdowns).
 $component-active-color:    #fff !default;
