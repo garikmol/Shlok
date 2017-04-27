@@ -9152,11 +9152,12 @@ body {
 
 .swiper-container6-1 {
   position: relative;
-  height: 408px; }
+  overflow: hidden; }
 
 .person6-1 {
   width: 322px;
   height: 350px;
+  margin: 0 auto;
   position: relative;
   overflow: hidden;
   border-bottom-right-radius: 161px;
@@ -9195,3 +9196,22 @@ body {
     float: left;
     clear: left;
     margin-top: 15px; }
+
+.person-lable6-1 {
+  margin: 25px auto;
+  text-align: center; }
+
+.slide-nav6-1 {
+  margin: 0 auto;
+  text-align: center; }
+
+.swiper-pagination-line6-1 {
+  display: inline-block;
+  background-color: #ffffff;
+  height: 3px;
+  width: 20px;
+  vertical-align: middle;
+  margin-top: -1px; }
+
+.row6-1 {
+  margin: 0 30px; }
