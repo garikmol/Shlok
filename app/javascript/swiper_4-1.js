@@ -27,4 +27,24 @@ var swiper6_1 = new Swiper ('.swiper-container6-1', {
 
 });
 
+var swiper9_1 = new Swiper ('.swiper-container9-1', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: 3,
+    centeredSlides: true,
+
+    nextButton: '.swiper-button-next9-1',
+    prevButton: '.swiper-button-prev9-1',
+    effect: 'coverflow',
+    coverflow: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true}
+});
+
+
+
 
