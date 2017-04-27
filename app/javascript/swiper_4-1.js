@@ -40,8 +40,8 @@ var swiper9_1 = new Swiper ('.swiper-container9-1', {
     coverflow: {
         rotate: 0,
         stretch: 0,
-        depth: 100,
-        modifier: 1,
+        depth: 150,
+        modifier: 2,
         slideShadows : true}
 });
 
