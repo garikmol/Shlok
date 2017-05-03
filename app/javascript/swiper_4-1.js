@@ -45,6 +45,20 @@ var swiper9_1 = new Swiper ('.swiper-container9-1', {
         slideShadows : true}
 });
 
+var swiper8_1 = new Swiper ('.swiper-container8-1', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: 2,
+    //centeredSlides: true,
+    spaceBetween: 20,
+
+    containerModifierClass: 'swiper-container8-1-',
+    slideClass: 'swiper-slide8-1',
+    slideActiveClass: 'swiper-slide-active8-1'
+
+});
+
 
 
 

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*Variables*/
-/* Bootstrap and jasny-bootstrap*/
+/* Bootstrap, jasny-bootstrap and project grid components*/
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -6386,6 +6386,68 @@ button.close {
 .input-group-addon:not(:first-child) {
   border-left: 0; }
 
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5,
+.col-xs-2-5,
+.col-sm-2-5,
+.col-md-2-5,
+.col-lg-2-5,
+.col-xs-3-5,
+.col-sm-3-5,
+.col-md-3-5,
+.col-lg-3-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.col-xs-1-5 {
+  width: 20%;
+  float: left; }
+
+.col-xs-2-5 {
+  width: 40%;
+  float: left; }
+
+.col-xs-3-5 {
+  width: 60%;
+  float: left; }
+
+@media (min-width: 768px) {
+  .col-sm-1-5 {
+    width: 20%;
+    float: left; }
+  .col-sm-2-5 {
+    width: 40%;
+    float: left; }
+  .col-sm-3-5 {
+    width: 60%;
+    float: left; } }
+
+@media (min-width: 992px) {
+  .col-md-1-5 {
+    width: 20%;
+    float: left; }
+  .col-md-2-5 {
+    width: 40%;
+    float: left; }
+  .col-md-3-5 {
+    width: 60%;
+    float: left; } }
+
+@media (min-width: 1200px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left; }
+  .col-lg-2-5 {
+    width: 40%;
+    float: left; }
+  .col-lg-3-5 {
+    width: 60%;
+    float: left; } }
+
 /*Fonts*/
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -8736,7 +8798,7 @@ body {
   padding-left: 49px;
   padding-right: 61px;
   letter-spacing: 0.1em;
-  overflow: visible; }
+  overflow: auto; }
 
 .navmenu-brand {
   margin-top: 67px;
@@ -9216,6 +9278,66 @@ body {
 .row6-1 {
   margin: 0 30px; }
 
+.section7-1 {
+  min-height: 430px;
+  background-image: url("../images/section7-1/background.jpg");
+  padding-top: 130px; }
+
+.row7-1 {
+  font-size: 0;
+  text-align: center; }
+
+.imgWrap7-1 {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .imgWrap7-1 > a {
+    opacity: 0.5;
+    transition: 0.3s; }
+    .imgWrap7-1 > a:hover {
+      opacity: 1;
+      transition: 0.3s; }
+
+.section8-1 {
+  min-height: 947px;
+  background-image: url("../images/sectoin8-1/background.jpg");
+  padding-top: 120px;
+  font-family: Karla;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400; }
+
+.pic8-1 {
+  position: relative;
+  max-width: 412px;
+  max-height: 412px; }
+  .pic8-1 > img {
+    width: 100%; }
+
+.date8-1 {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -40px;
+  margin-right: -40px;
+  text-align: center; }
+  .date8-1 > h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 103px;
+    font-weight: 700; }
+
+.comment8-1 {
+  text-transform: uppercase; }
+
+.swiper-container8-1 {
+  max-width: 920px;
+  overflow: hidden; }
+
+.wrapSlide8-1 {
+  width: 464px; }
+
+.swiper-slide-active8-1 {
+  transform: scale(0.8); }
+
 .section9-1 {
   min-height: 717px;
   padding-top: 120px;
@@ -9272,3 +9394,31 @@ body {
 .nav-swiper9-1 {
   margin-top: 40px;
   text-align: center; }
+
+.section10-1 {
+  height: 240px;
+  background-color: #111111;
+  padding-top: 68px;
+  font-family: 'Oswald', sans-serif;
+  color: #707070;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center; }
+  .section10-1 > p {
+    text-transform: uppercase;
+    margin-top: 20px; }
+
+.brand10-1 {
+  width: 105px;
+  height: 32px;
+  margin: 0 auto; }
+  .brand10-1 > img {
+    width: 100%;
+    height: 100%; }
+
+.social10-1 > a {
+  color: inherit;
+  font-size: 16px;
+  display: inline-block;
+  margin: 20px 5px 0 5px; }
